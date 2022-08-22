@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+QLD+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 
 body{
-    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Signika', sans-serif;
     height: 100%;
     position: relative;
 }
