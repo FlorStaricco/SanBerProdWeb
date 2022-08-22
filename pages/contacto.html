@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Bernardo Producciones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body><div class="container">
+    <header>
+        <div class="logo">
+            <img src="../img/logo.png" alt="logo" height="140px" width="300px">
+        </div>
+        <nav>
+            <ul class="navBar">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./servicios.html">SERVICIOS</a></li>
+                <li><a href="./galeria.html">GALERIA</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+            <h4>Dejanos tu consulta:</h4>
+            <form action="enviar.php" method="get" enctype="text/plain" fieldset>
+                <div><label for="nombre">Nombre:</label></div>
+                <div><input type="nombre"></div>
+                <div><label for="mail">E-mail:</label></div>
+                <div><input type="email"></div>
+                <div><label for="telefono">Teléfono:</label></div>
+                <div><input type="number"></div>
+                <div><label for="consulta">Consulta:</label></div>
+                <div><textarea name id="consulta" cols="30" rows="5"placeholder required></textarea></div>
+                <div>
+                    <button type="submit" onclick="formularioe-nviado"> Enviar</button>
+                </div>
+                
+            </form>
+        </div>
+    </main>
+    <footer>                
+        <div class="contacto">
+            <a href="tel:+5443821120"></a><i class="fa-solid fa-square-phone"></i>
+            <a href="https://api.whatsapp.com/send?phone=1149785816"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="https://goo.gl/maps/WD2BeQUAwWm7urPFA"><i class="fa-solid fa-location-dot"></i></a>
+            <a href="https://www.facebook.com/sbproducciones.com.ar"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/sanberproducciones/"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </footer>
+</div>
+
+    
+</body>
+</html>
