@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@font-face{
+    font-family: "conforta";
+    src: url(./fonts/confortaRegular);
 
+}
 body{
-    font-family: 'Kalam', cursive;
+    font-family: "conforta";
     height: 100%;
     position: relative;
 }
@@ -65,7 +68,7 @@ footer{
 .navBar li a{
     font-weight: bold;
     color: black;
-    text-shadow: 1px 2px 2px #D9534F;
+    text-shadow: 1px 1px 2px #d9534f;
     text-decoration: none;
 }
 
@@ -98,8 +101,9 @@ footer{
 }
 
 .mainTxt h2{
-    font-size: 2em;
-    text-shadow: 2px 1px;
+    font-size: 3em;
+    text-shadow: 3px 1px 1px #000000;
+    color: #d9534f;
 }
 
 .mainTxt p{
@@ -212,7 +216,7 @@ footer{
     font-size: 25px;
     color: #219F94;
     letter-spacing: 3px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 1px 1px black;
 }
 
 .description{
@@ -300,7 +304,7 @@ footer{
     }
 
     button{
-        font-family: 'Edu QLD Beginner', cursive;
+        font-family: "conforta";
     }
 
 /*footer*/
