@@ -5,12 +5,14 @@
 }
 
 @font-face{
-    font-family: "conforta";
-    src: url(./fonts/confortaRegular);
+    font-family: "hornbill.otf";
+    src: url(../fonts/hornbill.otf);
+    font-family: "hornibillBlack.otf";
+    src: url(../fonts/hornbillBlack.otf);
 
 }
 body{
-    font-family: "conforta";
+    font-family: "hornbill";
     height: 100%;
     position: relative;
 }
@@ -104,6 +106,7 @@ footer{
     font-size: 3em;
     text-shadow: 3px 1px 1px #000000;
     color: #d9534f;
+    font-family: "hornibillBlack.otf";
 }
 
 .mainTxt p{
@@ -304,7 +307,7 @@ footer{
     }
 
     button{
-        font-family: "conforta";
+        font-family: "hrnbill";
     }
 
 /*footer*/
